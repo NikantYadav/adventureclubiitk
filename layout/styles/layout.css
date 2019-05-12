@@ -56,7 +56,7 @@ header a{color:#FFFFFF;}
 .drop-content{
 	display: none;
 	position: absolute;
-	min-width: 100px;
+	min-width: 120px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 	background:rgba(0,0,0,0.95);
@@ -72,7 +72,6 @@ header a{color:#FFFFFF;}
 
 /*.drop-content li:hover {color:#ffffff;background-color: #82a800}*/
 
-
 .drop:hover .drop-content {
   display: block;
 }
@@ -86,7 +85,9 @@ header a{color:#FFFFFF;}
 .region2{font-family:'Lucida Console', monospace; color:#333333; background-color:#FFFFFF; line-height: 1.4em; word-spacing: normal; }
 .region3{font-family:'Georgia', monospace; color:#333333; background-color:#FFFFFF; line-height: 1.4em; word-spacing: normal; }
 .content-center{width: 70%; margin:auto;}
+.content-center-wide{width: 90%; margin: auto;}
 .border{border: 3px solid green;}
+.box-shadow{box-shadow: 2px 2px 5px 1px #ccc;}
 
 .imgl, .imgr{display:inline-block; float:none; margin:1em; border:1px solid;}
 .imgr{float:right;}
@@ -96,7 +97,15 @@ header a{color:#FFFFFF;}
 /*-----------------------------------------------------------*/
 .btn {display:inline-block; ;margin:0 1em 1em 0; border-radius:0 1em; background:rgba(130,168,0,1); width: 7em; border-width: 1px;}
 .btn a{text-align: center; display:block; padding:1em; text-decoration:none; color:#FFFFFF;}
-.btn a:hover{background-color:#FFFFFF; color: #82A800; padding: 1em;}
+.btn a:hover{background-color:#FFFFFF; color: #82A800; padding: 1em; }
+
+.fb-btn {display:inline-block; ;margin:0 1em 1em 0; border-radius:0 1em; background:rgba(59,89,152,1); width: 7em; border-width: 1px;}
+.fb-btn a{text-align: center; display:block; padding:1em; text-decoration:none; color:#FFFFFF;}
+.fb-btn a:hover{background-color:#FFFFFF; color: #3b5998; padding: 1em; }
+
+.ytb-btn {display:inline-block; ;margin:0 1em 1em 0; border-radius:0 1em; background:rgba(196,48,43,1); width: 7em; border-width: 1px;}
+.ytb-btn a{text-align: center; display:block; padding:1em; text-decoration:none; color:#FFFFFF;}
+.ytb-btn a:hover{background-color:#FFFFFF; color: #c4302b; padding: 1em; }
 
 .btn1 {display:inline-block; ;margin:0 1em 1em 0; padding:0em; border-radius:0 0em; background:rgba(130,168,0,1); width: auto; border-width: 1px;}
 .btn1 a{text-align: center; display:block; padding:1em; text-decoration:none; color:#FFFFFF;}
@@ -107,7 +116,7 @@ header a{color:#FFFFFF;}
 .footer {padding: 1em;}
 div.profile-image {
   margin: 0 1em 1em 0;
-  border: 3px double #ccc;
+  border: 2px solid #888;
   /*float: left;*/
   display: inline-block;
   width: 200px;
@@ -228,3 +237,48 @@ div.profile-image img {
 .prev:hover, .next:hover{ background-color: rgb(0,0,0,0.8); }
 /*---------------------------------------------------------------------------------------------------------------*/
 
+/*Template Code*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 2em;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  /*margin-left: 2em;*/
+  /*box-shadow: 2px 2px 5px 1px #ccc;*/
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*Template Code End*/
