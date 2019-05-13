@@ -90,8 +90,10 @@ header a{color:#FFFFFF;}
 .box-shadow{box-shadow: 2px 2px 5px 5px #ccc;}
 
 .imgl, .imgr{display:inline-block; float:none; margin:1em; border:1px solid;}
-.imgr{float:right;}
-.imgl{float:left;}
+.imgr{float:right; margin-right: 0em;} 
+.imgl{float:left; margin-left: 0em;}
+
+.small-image{max-width: 15em;}
 
 /* Buttons */
 /*-----------------------------------------------------------*/
