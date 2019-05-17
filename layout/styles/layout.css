@@ -86,12 +86,15 @@ header a{color:#FFFFFF;}
 .region3{font-family:'Georgia', monospace; color:#333333; background-color:#FFFFFF; line-height: 1.4em; word-spacing: normal; }
 .content-center{width: 70%; margin:auto;}
 .content-center-wide{width: 90%; margin: auto;}
-.border{border: 3px solid green;}
-.box-shadow{box-shadow: 2px 2px 5px 5px #ccc;}
+.border-check{border: 3px solid green;}
+.border {border: 1px solid #ccc;}
+.box-shadow{box-shadow: 2px 2px 5px 3px #ccc;}
+.alink{color: #a90000; text-decoration: underline;}
+.alink:hover{cursor: pointer;}
 
 .imgl, .imgr{display:inline-block; float:none; margin:1em; border:1px solid;}
 .imgr{float:right; margin-right: 0em;} 
-.imgl{float:left; margin-left: 0em;}
+.imgl{float:left; margin-left: 0em; }
 
 .small-image{max-width: 15em;}
 
@@ -114,7 +117,7 @@ header a{color:#FFFFFF;}
 .btn1 a:hover{background-color:#FFFFFF; color: #82A800; padding: 1em;}
 
 
-#footer{ background:rgba(0,0,0,0.9);color:#fff; margin-top: 4em; position:relative;bottom:0; width:100%; height:4.5em; font-family: 'Georgia', monospace; font-size: 0.9em;}
+#footer{ background:rgba(0,0,0,0.9);color:#fff; margin-top: 4em; position:relative;bottom:0; width:100%;/* height:4.5em*/; font-family: 'Georgia', monospace; font-size: 0.9em;}
 .footer {padding: 1em;}
 div.profile-image {
   margin: 0 1em 1em 0;
@@ -160,6 +163,11 @@ div.profile-image img {
 .table-link a{padding: 1px;display: block;  text-decoration:none; color:#111;}
 .table-link a:hover{ color:#222;}
 .table-link:hover{background: #fff; border-radius: 3px; }
+
+.table-link-i{float: right; background: #e8e8e8; border-radius: 0px 3px; color:#fff; padding: 0; border: 1px solid #666;}
+.table-link-i a{padding: 0px;padding-left: 4px; padding-right: 4px; display: inline-block;  text-decoration:none; color:blue;}
+.table-link-i a:hover{ color:#222;}
+.table-link-i:hover{background: #fff; border-radius: 3px; }
 
 /* Gallery
 -----------------------------------------------------------------------------------------------------------------*/
@@ -284,3 +292,29 @@ div.profile-image img {
 
 
 /*Template Code End*/
+
+/*ReadMore Section*/
+.MoreRead{display: none;}
+/*ReadMore section end*/
+
+/*Newsletter Subscribe*/
+.newsletter input[type=text],.newsletter input[type=submit] {
+  width: 100%;
+  padding: 1em;
+  margin: 0.8em 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.newsletter input[type=submit] {
+  background-color: #82A800;
+  color: #fff;
+  border: none;
+}
+
+.newsletter input[type=submit]:hover{
+  /*opacity: 0.8;*/
+  box-shadow: 2px 2px 5px 3px #ccc;
+}
+/*Newsletter Subcribe end*/
