@@ -19,7 +19,7 @@
       <div class="drop-content">
         <ul id="droplist">
           <li><a href="#pages/">Treks</a></li>
-          <li><a href="pages/wall_climbing.html">Wall Climbing</a></li>
+          <li><a href="../../climbing/index.html">Wall Climbing</a></li>
           <li><a href="pages/conditioning.html">Conditioning</a></li>
           <li><a href="pages/activity_log.html">Activity Log</a></li>
         </ul>
